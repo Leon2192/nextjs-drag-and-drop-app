@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Componentes izquierda",
+        "items": [
+            {
+                "id": 1,
+                "priority": 1,
+                "title": "Storage",
+                "chat": 1,
+                "attachment": 2,
+                "assignees": [
+                    {
+                        "avt": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/portable/my-passport-gaming-storage-usb-3-0-hdd-recertified/gallery/my-passport-gaming-storage-left.png.thumb.1280.1280.png"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "priority": 0,
+                "title": "Motherboard",
+                "chat": 1,
+                "attachment": 2,
+                "assignees": [
+                    {
+                        "avt": "https://dlcdnwebimgs.asus.com/files/media/9A17B8D0-6E15-4AAC-A46C-EABE19F21D50/v2/img/kv/ROG-Strix-B660-G-Gaming.png"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "priority": 2,
+                "title": "Cooler",
+                "chat": 1,
+                "attachment": 2,
+                "assignees": [
+                    {
+                        "avt": "https://www.qloud.ar/SITES/IMG/gaming-point-06-2021/221_13-10-2022-11-10-00-ma410mtuf_g2-image.png"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "priority": 0,
+                "title": "Ram",
+                "chat": 1,
+                "attachment": 2,
+                "assignees": [
+                    {
+                        "avt": "https://www.qloud.ar/SITES/IMG/gaming-point-06-2021/221_12-10-2022-05-10-02-1597155903_ddr4xlr8desktoprgb3200mhzra2.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Componentes medio izquierda",
+        "items": [
+          
+        ]
+    },
+    {
+        "name": "Componentes medio derecha",
+        "items": [
+          
+        ]
+    },
+    {
+        "name": "Componentes derecha",
+        "items": [
+            {
+                "id": 5,
+                "priority": 3,
+                "title": "Power supply",
+                "chat": 1,
+                "attachment": 3,
+                "assignees": [
+                    {
+                        "avt": "https://www.corsair.com/corsairmedia/sys_master/productcontent/blog_ax1200i-digital-power-supply.png"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "priority": 0,
+                "title": "Tarjeta",
+                "chat": 1,
+                "attachment": 2,
+                "assignees": [
+                    {
+                        "avt": "https://asset.msi.com/resize/image/global/product/product_9_20160722104853_5791899565783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "priority": 2,
+                "title": "Cpu",
+                "chat": 1,
+                "attachment": 3,
+                "assignees": [
+                    {
+                        "avt": "https://www.intel.la/content/dam/www/global/badges/badge-9th-gen-core-i9.png.rendition.intel.web.480.360.png"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "priority": 1,
+                "title": "Thermal paste",
+                "chat": 1,
+                "attachment": 2,
+                "assignees": [
+                    {
+                        "avt": "https://cdn-icons-png.flaticon.com/512/8650/8650789.png"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-image: url('https://d2r9epyceweg5n.cloudfront.net/stores/001/720/058/products/nsx-ultra-002-amd1-241a04aa12f22ef96416315955566865-640-0.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#gabinete {
+  width: 100%;
+  height: 800px;
+  background-image: url('https://www.qloud.ar/SITES/IMG/gaming-point-06-2021/221_28-10-2022-03-10-31-productgallery185.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 55px;
+}
+
+
+.item-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+
+}
+
+.drag-container {
+  margin-top: 20px;
+}
+
+.drag-container h1 {
+  font-size: 60px;
+}
+
+.logo {
+  margin-bottom: 25px;
+}
+
+/* DRAG AND DROP */
+.drag-and-drop {
+  display: flex;
+  grid-gap: 80px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  min-height: 100px;
+  padding: 15px 8px;
+  border-radius: 8px;
+ 
+
+}
+
+.column-gabinete {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  min-height: 100px;
+  padding: 15px 8px;
+  border-radius: 8px;
+}
+
+.dd-zone {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 16px;
+  height: 100%;
+}
+
+.dd-zone-two-home {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dd-zone-two .dd-element {
+  display: flex;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.dd-element {
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 15px 15px;
+  cursor: pointer;
+  color: #5b5b73;
+}
+
+.dd-element .body {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.column--1 {
+  color: white;
+}
+
+.column--1 .title {
+
+}
+
+.column--1 h2 {
+  font-size: 60px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  line-height: 100vh;
+}
+
+.column--2 {
+
+}
+
+.column--2 .item-img {
+  margin-right: 50px;
+}
+
+.column--3 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-next {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.mode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon-next-right {
+  flex: 1;
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 35px;
+}
